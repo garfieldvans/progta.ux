@@ -1,0 +1,92 @@
+#iconizr li {
+	font-size:18px;
+	float: right;
+	font-family:shaun the sheep !important;
+	color:#cccccc;
+	text-shadow:0px -1px 0px #000;
+	cursor: pointer;
+	height:41px;
+	position: relative;
+	border-top:none;
+	border-bottom:none;
+	list-style:none;
+}
+#iconizr .icon {
+	background: #d91e76 url('../ico/iconizers.png') 3px 0 no-repeat;
+	background-color: rgba(217,30,118, .42);
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	display: block;
+	color: #141414;
+	float: none;
+	height: 40px;
+	line-height: 40px;
+	margin: 5px 0 0;
+	position: relative;
+	text-align: left;
+	text-indent: 50px;
+	text-shadow: #333 0 1px 0;
+	white-space: nowrap;
+	width: 40px;
+	z-index: 5;
+	-webkit-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+	-ms-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+	-moz-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+	-o-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+	transition: width .25s ease-in-out, background-color .25s ease-in-out;
+	-webkit-box-shadow: rgba(0,0,0, .28) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0, .28) 0 1px 3px;
+	-ms-box-shadow:rgba(0,0,0, .28) 0 1px 3px;
+	-o-box-shadow: rgba(0,0,0, .28) 0 1px 3px;
+	box-shadow: rgba(0,0,0, .28) 0 1px 3px;
+	width:40p}
+#iconizr li:after {
+	color: #141414;
+	content: attr(data-alt);
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	position: absolute;
+	left: 55px;
+	top: 0;
+	z-index: 2;
+}
+#iconizr .icon {
+	color: #fafafa;
+	overflow: hidden;
+	text-decoration: none;
+}
+#iconizr .facebook {
+	background-color: rgba(65,131,196, .42);
+	background-position: 3px 0;
+}
+#iconizr .twitter {
+	background-color: rgba(74,191,226, .42);
+	background-position: 3px -40px;
+}
+#iconizr .gplus {
+	background-color: rgba(206,26,29, .42);
+	background-position: 3px -80px;
+}
+#iconizr .rss {
+	background-color: rgba(255,109, 0, .42);
+	background-position: 3px -160px;
+}
+#iconizr li:hover .icon {
+	width: 50px;
+	background-color: #d91e76;
+}
+#iconizr li:hover .facebook {
+	background-color: #2d76b9;
+}
+#iconizr li:hover .twitter {
+	background-color: #29b8e5;
+}
+#iconizr li:hover .gplus {
+	background-color:#E0181C;
+}
+#iconizr li:hover .rss {
+	background-color: #ff6d00;
+}
